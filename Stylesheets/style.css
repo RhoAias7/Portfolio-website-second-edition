@@ -1,0 +1,259 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+/*Navbar css*/
+.nav-link {
+        color: #6C6C6C;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+}
+
+.active {
+        background-color: #6C6C6C !important;
+        border-radius: 0em !important;
+}
+
+/*Home css*/
+
+.img-1 {
+        background: url('../Images/Monsta.png') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        text-align: center;
+}
+
+.logo {
+        margin-top: 50px;
+		background: white;
+		padding-top: 30px;
+		padding-bottom: 30px;
+        box-shadow: #6C6C6C 10px 10px;
+}
+
+.banner {
+        margin-top: 30px;
+        background: White;
+        box-shadow: #6C6C6C 10px 10px;
+        font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon-1 {
+        margin-top: 30px;
+        display: inline-block;
+        background-color: white;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        box-shadow: #6C6C6C 10px 10px;
+        color: black;
+    }
+	
+.nav-item:hover {
+	transform: scale(1.1);
+	transform: all 1s;
+	
+}
+
+a:focus, a:hover{
+	color: #6C6C6C !important;
+}
+
+.move:hover {
+	transform: scale(1.1);
+	transform: all 1s;
+}
+    
+.fa::before {
+        color: #292b2c;
+    }
+    
+.name {
+        font-size: 50px;
+    }
+	
+.tag {
+        font-size: 20px;
+    }
+    
+.ico {
+        margin-right: 40px;
+    }
+	
+.add {
+		height: 50px;
+	}
+	
+	@media only screen and (max-width: 383px){
+		.img-1{
+			width: 100%
+		}
+		.icon-1{
+			font-size: 20px;
+			width: 37px;
+			height: 37px;
+			margin-top: ;
+		}
+	}
+	
+	
+	
+/*About me css*/
+
+.img-2 {
+        background: url('../Images/EXO.jpg') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+		background-attachment: fixed;
+}
+
+.about {
+        margin-top: 50px;
+        background: White;
+        box-shadow: #6C6C6C 10px 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+}
+
+.placeholder {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #292b2c;
+        font-size: 14px;
+		
+}
+
+.box {
+        margin-top: 20px;
+        overflow: auto;
+		height: 28.5rem;
+		background: white;
+		box-shadow: #6C6C6C 10px 10px;
+    }
+	
+/*Portfolio css*/
+	
+ .img-3 {
+        background: url('../Images/Day6.jpg') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+		background-attachment: fixed;
+    }
+
+.shadow{
+	box-shadow: #6C6C6C 10px 10px;
+		
+}
+    
+	
+	
+.img {
+    text-align: center;
+}
+    
+    .text {
+        background: White;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+    }
+	
+	@media only screen and (max-width: 768px){
+		.sm{
+			height:5.5rem;
+		}
+	}
+	
+/*Contact me css*/
+.img-4 {
+        background: url('../Images/dean.jpg') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+   #hug{
+	   color: white;
+   }
+	
+	.Talk{
+		 margin-top: 50px;
+        background: White;
+        box-shadow: #6C6C6C 10px 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: left;
+		width: 50%;
+		margin-bottom: 20px;
+        
+	}
+	
+	.push{
+		margin-top: 20px;
+	}
+	
+	.send{
+		height:10.5rem;
+	}
+
+	.mybtn{
+		background-color: #6C6C6C !important;
+		border-radius: 0em !important;
+		font-family: 'Josefin Sans', sans-serif;
+		border-color: black !important;
+	}
+	
+	#googleMap{
+		width:100%; 
+		height:100%;
+		margin-top:20px;
+	}
+	
+	@media only screen and (max-width: 1260px) and (min-width: 769px){
+		#googleMap{
+			height: 25.5rem;
+		}
+		.reduce{
+			font-size: 14px;
+		}
+		.form-control{
+			height: 30%;
+		}
+	}
+	
+	@media only screen and (max-width: 769px) and (min-width: 579px){
+		#googleMap{
+			height: 10.5rem;
+		}
+		.reduce{
+			font-size: ;
+		}
+		.form-control{
+			height: 30%;
+		}
+		.send{
+		height:5.5rem;
+		}
+	}
+	
+	@media only screen and (max-width: 579px){
+		
+		#googleMap{
+			height: 6.5rem;
+		}
+		.form-control{
+			height: 20px;
+		}
+		.send{
+		height:2.5rem;
+		}
+		.reduce{
+		font-size: 13px;
+		}
+	}
+	
